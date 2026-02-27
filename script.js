@@ -55,3 +55,20 @@ for(count = 0; count < 10; count++) {
     document.write("Count: " + count + "<br>");
 }
 document.write("Loop Stopped! <br>");
+
+const person={
+    fname:"Aunik",
+    lname:"Sachan",
+    age:"18"
+};
+for(let x in person){
+    console.log(person[x]);
+}
+
+var y=0;
+document.write("Loop start");
+while(y<10){
+    document.write("Current count:"+y+"<br/>");
+    y++;
+}
+document.write("Loop stopped");
