@@ -8,7 +8,7 @@ else{
 
 
 var garde="A";
-document.write("Entering switch block<br/>")
+document.write("Entering switch block<br/>");
 switch(grade){
     case "A":document.write("A grade");
     break;
